@@ -83,7 +83,7 @@
     port: 587
     username: "{{ gmail_account }}"
     password: "{{ gmail_account_password }}"
-    to: Teemu Uotila <teemu@redhat.com>
+    to: Teemu Uotila <teemu.uotila.test@gmail.com>
     subject: "Ansible Report"
     body: "The list of required Windows Update for the Windows VMs can be found in the attached file"
     attach:
